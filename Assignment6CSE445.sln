@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28917.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherCondition", "WeatherCondition\WeatherCondition.csproj", "{C9A0F43F-4F50-4555-8149-C91AA1F74EA7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TryIt", "TryItWeather\TryIt.csproj", "{E958EF5A-9AAB-4F18-B5E7-B0B8D6F30A12}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C9A0F43F-4F50-4555-8149-C91AA1F74EA7} = {C9A0F43F-4F50-4555-8149-C91AA1F74EA7}
+		{F44CBA5F-924D-41C9-BAE0-D4794FD8F720} = {F44CBA5F-924D-41C9-BAE0-D4794FD8F720}
+		{35643B90-D418-4371-A272-0B5D49AEDD4D} = {35643B90-D418-4371-A272-0B5D49AEDD4D}
+		{B479ACA2-E918-41CE-B96B-953BB31D2274} = {B479ACA2-E918-41CE-B96B-953BB31D2274}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YelpStores", "YelpStores\YelpStores.csproj", "{F44CBA5F-924D-41C9-BAE0-D4794FD8F720}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeoCodeService", "GeoCodeService\GeoCodeService.csproj", "{35643B90-D418-4371-A272-0B5D49AEDD4D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DistCalcService", "DistCalcService\DistCalcService.csproj", "{B479ACA2-E918-41CE-B96B-953BB31D2274}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C9A0F43F-4F50-4555-8149-C91AA1F74EA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9A0F43F-4F50-4555-8149-C91AA1F74EA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9A0F43F-4F50-4555-8149-C91AA1F74EA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9A0F43F-4F50-4555-8149-C91AA1F74EA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E958EF5A-9AAB-4F18-B5E7-B0B8D6F30A12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E958EF5A-9AAB-4F18-B5E7-B0B8D6F30A12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E958EF5A-9AAB-4F18-B5E7-B0B8D6F30A12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E958EF5A-9AAB-4F18-B5E7-B0B8D6F30A12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F44CBA5F-924D-41C9-BAE0-D4794FD8F720}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F44CBA5F-924D-41C9-BAE0-D4794FD8F720}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F44CBA5F-924D-41C9-BAE0-D4794FD8F720}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F44CBA5F-924D-41C9-BAE0-D4794FD8F720}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35643B90-D418-4371-A272-0B5D49AEDD4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35643B90-D418-4371-A272-0B5D49AEDD4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35643B90-D418-4371-A272-0B5D49AEDD4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35643B90-D418-4371-A272-0B5D49AEDD4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B479ACA2-E918-41CE-B96B-953BB31D2274}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B479ACA2-E918-41CE-B96B-953BB31D2274}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B479ACA2-E918-41CE-B96B-953BB31D2274}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B479ACA2-E918-41CE-B96B-953BB31D2274}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {55FA65B6-2643-423E-BD5D-33A60F17CC54}
+	EndGlobalSection
+EndGlobal
