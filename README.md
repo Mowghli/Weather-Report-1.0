@@ -34,5 +34,3 @@ This project folder contains aspx web pages that use the services. To see these 
 **Notes:** The services used in this project were originally intended to be used to make one service: Getting the user's location, and the name of the store that they wanted to go to, determine the closest store with the given name, along with the zipcode and distance to that location, and the best time to go to the store, based on the 5-day weather forecast. 
 
 Even though this project is depolyed, the services will not work, because the API keys that were used by the services have been refreshed/removed. This is done to prevent DDoS attacks (which is an issue with this project), though I will try to implement some form of protection (like signup and login process) in Weather-Report-2.0, a project that will be similar to this project.
-
-This project was implemented for an assignment in CSE 445 (Distributed Software Development).
